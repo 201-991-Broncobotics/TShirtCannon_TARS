@@ -2,13 +2,11 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
-import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 
-import edu.wpi.first.wpilibj.DoubleSolenoid;
+
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.PneumaticsModuleType;
 import edu.wpi.first.wpilibj.Solenoid;
@@ -25,8 +23,7 @@ public class Robot extends TimedRobot {
   // DoubleSolenoid corresponds to a double solenoid.
   //private final DoubleSolenoid m_doubleSolenoid = new DoubleSolenoid(1, 2);
 
-  private static final int kSolenoidShootButton = 0;
-  private static final int kSolenoidLoadButton = 2;
+
 
   private Drivetrain dT;
 
